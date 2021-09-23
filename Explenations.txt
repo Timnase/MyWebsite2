@@ -1,0 +1,20 @@
+display modes:
+1. block: it blocks the hole row where such character is found.
+we can define its width but we cant layout beside it anything.
+
+2. inline: like its name, these characters are laid out one besides the other.
+we cant define the width of the block around such character.
+
+3. inline-block: the best of both worlds. so the characters align one besides the other. and we can change the width,
+
+4. none: as its name, no display. pay attention: it does not keep its place in the inline
+it is as it was never written.
+**another option is to use visibility: witch keeps the block space but un-visualizes the block content
+
+
+
+position:
+1. relative. (options- left, right, bottom, top): we can move the character relatively
+to its initional position, so left: 20 px will actually move the object right with 20px space from the left initial location.
+2. absolute: is relative to its farther: moves in the direction u expect, (but remember who is the farther).
+3. fixed: keeps it fixed in place even when scrolling up and down. (good for side bars and so).

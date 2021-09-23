@@ -1,0 +1,111 @@
+
+
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  color: #66BFBF;
+  margin: 50px auto 0px auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-weight: bolder;
+}
+
+p {
+  color: #40514E;
+}
+
+hr {
+  border-top: 10px dotted #d0dbdb;
+  width: 5%;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  margin: 50px auto;
+}
+/******class******/
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.profile-picture {
+  height: 250px;
+  width: 250px;
+  margin: 50px auto;
+}
+
+.computer {
+  width: 25%;
+  float: left;
+  padding: 30px;
+}
+
+.fitness {
+  width: 25%;
+  float: right;
+  padding: 30px;
+}
+
+.footer-link {
+  color: #11999E;
+  margin: 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.button {
+  background-color: #66BFBF;
+  border-color: #66BFBF;
+  border-radius: 10px;
+  padding: 10px 27px;
+  margin: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.website-creater {
+  color: #EAF6F6;
+}
